@@ -1,0 +1,55 @@
+
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Редактировать товар</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<header>
+    <h1>Мой Магазин</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="login.html">Войти</a></li>
+            <li><a href="register.html">Регистрация</a></li>
+            <li><a href="add_product.html">Добавить товар</a></li>
+        </ul>
+    </nav>
+</header>
+
+        <main class="container">
+
+<form action="#" method="post" enctype="multipart/form-data">
+<h2>Редактировать товар</h2>
+    <div class="form-group">
+        <label for="title">Название:</label>
+        <input type="text" id="title" name="title" value="Товар 1" required>
+    </div>
+    <div class="form-group">
+        <label for="description">Описание:</label>
+        <textarea id="description" name="description" required>Описание товара 1...</textarea>
+    </div>
+    <div class="form-group">
+        <label for="price">Цена (₽):</label>
+        <input type="number" id="price" name="price" value="1000" required>
+    </div>
+    <div class="form-group">
+        <label for="photo">Фото:</label>
+        <input type="file" id="photo" name="photo">
+    </div>
+    <button type="submit">Сохранить изменения</button>
+</form>
+
+        </main>
+
+<footer>
+    <p>&copy; 2025 Мой Магазин. Все права защищены.</p>
+</footer>
+
+    </body>
+    </html>
