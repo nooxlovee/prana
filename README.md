@@ -38,3 +38,15 @@ Prana — это интернет-магазин итальянской одеж
 6. Открыть в браузере:
 
     http://localhost/prana
+
+
+## Скриншоты
+![Баннер](screenshots/banner.png)
+![Информационные блоки](screenshots/block.png)
+![Каталог](screenshots/catalog.png)
+![Страница одного товара](screenshots/one-product.png)
+![Избранное](screenshots/favorite.png)
+![Корзина](screenshots/cart.png)
+![Оформление заказа](screenshots/order.png)
+![Профиль](screenshots/profile.png)
+![Админ панель](screenshots/admin.png)
